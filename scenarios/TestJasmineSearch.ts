@@ -1,4 +1,3 @@
-///<reference path="../node_modules/@types/jasmine/index.d.ts"/>
 import MainPage = require("../page_objects/MainPage");
 import ResultPage = require("../page_objects/ResultPage");
 import {browser} from "protractor";

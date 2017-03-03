@@ -1,4 +1,3 @@
-///<reference path="../typings/selenium-webdriver/selenium-webdriver.d.ts"/>
 import PageAbstract = require("./BasicPage");
 import {element, by} from "protractor";
 /**
