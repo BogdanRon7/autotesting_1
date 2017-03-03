@@ -1,0 +1,8 @@
+.env
+.idea
+target/
+testresults
+/target
+node_modules
+built/
+built

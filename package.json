@@ -1,0 +1,36 @@
+{
+  "name": "desktop-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "postinstall": "node node_modules/protractor/bin/webdriver-manager update",
+    "test": "node node_modules/protractor/built/cli.js protractor.conf.js --suite test_search"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "@types/node": "^6.0.46",
+    "grunt": "^1.0.1",
+    "jasmine-allure-reporter": "^1.0.1",
+    "jasmine-reporters": "^2.2.0",
+    "jasmine-spec-reporter": "^2.7.0",
+    "node-env-file": "^0.1.8",
+    "path": "^0.12.7",
+    "pg": "^6.1.0",
+    "protractor": "^4.0.10",
+    "protractor-helpers": "^1.0.2",
+    "protractor-jasmine2-html-reporter": "0.0.6",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "tsd": "^0.6.5",
+    "types": "^0.1.1",
+    "typescript": "^2.0.8",
+    "underscore": "^1.8.3"
+  }
+}

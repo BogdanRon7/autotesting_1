@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules",
+    "typings",
+    "node_modules/protractor"
+  ]
+}
