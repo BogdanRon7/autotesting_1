@@ -5,13 +5,9 @@ npm install -g protractor
 
 npm install -g typescript
 
-npm install -g tsd
+Create new file .env and copy content of test.evn
 
 npm install
-
-tsd install
-
-Create new file .env and copy content of test.evn
 
 tsc
 
