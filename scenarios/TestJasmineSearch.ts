@@ -6,11 +6,16 @@ import {browser} from "protractor";
  */
 describe("First result contains jasmine in the link", function () {
 
-    var  mainPage = new MainPage();
+    let mainPage = new MainPage();
     let resultPage  = new ResultPage();
 
     it("Main page is opened", function () {
         browser.get('/');
+
+        let variable = mainPage.getPageTitle();
+
+        console.log("regular promise------------: "+ variable);
+
         expect(mainPage.getPageTitle()).toContain("Bing", "Wrong title")
     });
     it("First result contains jasmine in the link", function () {
