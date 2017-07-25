@@ -1,7 +1,7 @@
 1. Before start make sure
 1) You have git installed https://git-scm.com/download/win
 2) NodeJS installed (can be LTS vesrion) https://nodejs.org/en/download/ 
-3) https://www.jetbrains.com/webstorm/
+3) https://www.jetbrains.com/webstorm/ prefer to use as IDE
 
 2. Clone project to local folder by execute next command in console:
 1) git clone https://github.com/prl94/BingTestExample.git
